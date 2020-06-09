@@ -337,6 +337,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-socials__list:hover {
@@ -346,6 +347,7 @@
 .team-socials__page {
 	padding: 10px;
 	color: #afb1b8;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social__page--link {
@@ -413,11 +415,13 @@
 	align-items: center;
 	border: 1px solid var(--title-text-color);
 	border-radius: 4px;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-clients__link {
 	color: #afb1b8;
 	padding: 30px;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-clients__link:hover {
@@ -428,7 +432,7 @@
 .regular-clients__item:focus {
 	border-color: var(--accent-color);
 	/* background-color: var(--accent-color); */
-	border-radius: 4px;
+	/* border-radius: 4px; */
 }
 
 .regular-clients__icon:hover,
